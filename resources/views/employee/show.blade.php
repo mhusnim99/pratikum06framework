@@ -9,7 +9,7 @@
                     <h4>Detail Employee</h4>
                 </div>
                 <hr>
-                <div class="row">
+                {{--<div class="row">
                     <div class="col-md-12 mb-3">
                         <label for="firstName" class="form-label">First Name</label>
                         <h5>{{ $employee->firstname }}</h5>
@@ -30,7 +30,7 @@
                         <label for="age" class="form-label">Position</label>
                         <h5>{{ $employee->position->name }}</h5>
                     </div>
-                </div>
+                </div>--}}
                 <hr>
                 <div class="row">
                     <div class="col-md-12 d-grid">

@@ -22,6 +22,6 @@ Route::get('/', function () {
 
 Route::get('home', [HomeController::class, 'index'])->name('home');
 
-Route::get('profile', ProfileController::class)->name('profile');
+//Route::get('profile', ProfileController::class)->name('profile');
 
-Route::resource('employees', EmployeeController::class);
+//Route::resource('employees', EmployeeController::class);

@@ -15,15 +15,15 @@ class EmployeeController extends Controller
      */
     public function index()
     {
-        $pageTitle = 'Employee List';
+        //$pageTitle = 'Employee List';
 
         // ELOQUENT
-        $employees = Employee::all();
+        //$employees = Employee::all();
 
-        return view('employee.index', [
-            'pageTitle' => $pageTitle,
-            'employees' => $employees
-        ]);
+        //return view('employee.index', [
+          //  'pageTitle' => $pageTitle,
+            //'employees' => $employees
+        //]);
     }
 
     /**
