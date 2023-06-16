@@ -58,7 +58,7 @@
                             <a href="{{ route('employees.index') }}" class="btn btn-outline-dark btn-lg mt-3"><i class="bi-arrow-left-circle me-2"></i> Cancel</a>
                         </div>
                         <div class="col-md-6 d-grid">
-                            <button type="submit" class="btn btn-dark btn-lg mt-3"><i class="bi-check-circle me-2"></i> Save</button>
+                            <button type="submit" class="btn btn-danger btn-lg mt-3"><i class="bi-check-circle me-2"></i> Save</button>
                         </div>
                     </div>
                 </div>
